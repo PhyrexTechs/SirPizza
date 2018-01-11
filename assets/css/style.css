@@ -1,4 +1,6 @@
-
+body{
+    background-image: url(../images/brushed.png);
+}
 
 #page1{
 	margin-top: -11px;
@@ -20,7 +22,11 @@
         float: left;
     }
     .address {
+        float: right;
         font-size: 20px !important;
+    }
+    .name {
+        margin-left: 55px !important;
     }
   } 
 
