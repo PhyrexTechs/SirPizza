@@ -4,7 +4,8 @@ body{
 }
 
 #page1{
-	margin-top: -11px;
+	margin-top: -15px;
+    margin-left: -14px;
 }
 #pizzaMenu {
 	padding-top: 5px;
@@ -15,7 +16,9 @@ body{
 	margin-top: 25px;
 	margin-bottom: 10px;
 }
-
+.brand {
+    padding-right: 0px !important;
+}
 
 @media only screen and (min-width: 767px) {
     .phone {
@@ -27,11 +30,13 @@ body{
         font-size: 20px !important;
     }
     .name {
-        margin-left: 55px !important;
+        margin-left: 115px !important;
     }
   } 
 
-  .iframe-holder {
+
+/* google maps responsive */
+.iframe-holder {
   position: relative;
   padding-bottom: 70%;
   padding-top: 30px;
