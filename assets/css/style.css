@@ -28,21 +28,29 @@ div.row.computer.only{
 .brand {
     padding-right: 0px !important;
 }
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 768px) {
     .phone {
         font-size: 28px !important;
         float: left;
     }
     .address {
         float: right;
-        font-size: 20px !important;
+        font-size: 18px !important;
     }
     .name {
-        margin-left: 115px !important;
+        margin-left: 15px !important;
     }
   } 
-
-
+@media only screen and (min-width: 990px) {
+    .name {
+        margin-left: 80px !important;
+    }
+  } 
+@media only screen and (min-width: 1200px) {
+    .name {
+        margin-left: 145px !important;
+    }
+  } 
 /* google maps responsive */
 .iframe-holder {
   position: relative;
