@@ -1,6 +1,3 @@
-#hiring{
-  margin-top: 20px;
-}
 body{
     background-image: url(../images/mirrored_squares.png);
 }
@@ -9,6 +6,9 @@ h2.ui.centered.header{
 }
 #navbar{
 	font-size: 1.2em;
+}
+h3.ui.centered.header.hours{
+  margin-bottom: 10px;
 }
 #page1{
 	margin-top: -15px;
@@ -32,9 +32,13 @@ div.row.computer.only{
 }
 @media only screen and (min-width: 768px) {
     .phone {
-        font-size: 28px !important;
+        font-size: 25px !important;
         float: left;
     }
+    .hours {
+      font-size: 25px !important;
+      float: left;
+  }
     .address {
         float: right;
         font-size: 18px !important;
@@ -43,9 +47,13 @@ div.row.computer.only{
         margin-left: 15px !important;
     }
   } 
+  
 @media only screen and (min-width: 990px) {
     .name {
         margin-left: 80px !important;
+    }
+    h3.ui.centered.header.hours{
+      margin-right: 10px;
     }
   } 
 @media only screen and (min-width: 1200px) {
